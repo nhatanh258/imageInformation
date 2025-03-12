@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/images/delete/2
+Authorization: Bearer <your_token_here>

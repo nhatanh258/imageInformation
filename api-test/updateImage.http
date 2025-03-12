@@ -1,0 +1,8 @@
+PUT http://localhost:3000/images/update/3
+Content-Type: application/json
+
+{
+  "path": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
+  "text": "Hình ảnh 131431cập trang an dw cho cut",
+  "width": 1024
+}
