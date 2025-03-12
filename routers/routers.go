@@ -17,11 +17,5 @@ func SetupRoutes(server *gin.Engine) {
 	imagesGroup.GET("/text/:id", GetText)         
 	imagesGroup.GET("/fulInform/:id", GetFullImageInfo)   // Lấy tất cả thông tin ảnh
 
-	// server.GET("/images/getAllImage", GetAllImages)
-	// server.GET("/images/:id", GetImage)
-	// server.POST("/images", CreateImage)
-	// server.PUT("/images/:id", UpdateImage)
-	// server.DELETE("/images/:id", DeleteImage)
-	// server.GET("/images/text/:id", GetText)         
-	// server.GET("/images/:id/fullinfo", GetFullImageInfo) 
+
 }

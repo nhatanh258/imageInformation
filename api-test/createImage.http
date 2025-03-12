@@ -1,4 +1,4 @@
-POST http://localhost:3000/images/create
+POST http://localhost:8080/images/create
 Content-Type: application/json
 
 {

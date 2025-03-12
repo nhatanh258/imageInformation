@@ -42,5 +42,5 @@ func main() {
 	fmt.Println("dang tien hanh lay anh ...")
 	server := gin.Default() // tao mot instance  gin router
 	routers.SetupRoutes(server)
-	server.Run(":3000")                 
+	server.Run(":8080")                 
 }
