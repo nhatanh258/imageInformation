@@ -1,2 +1,2 @@
-GET http://localhost:8080/images/3
+GET http://localhost:8080/images/1
 Accept: application/json

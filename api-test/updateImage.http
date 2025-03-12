@@ -1,8 +1,9 @@
-PUT http://localhost:8080/images/update/3
+PUT http://localhost:8080/images/update/1
 Content-Type: application/json
 
 {
-  "path": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
-  "text": "Hình ảnh 131431cập trang an dw cho cut",
+  "path1": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
+   "path2": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
+  "text": "Hình ảnh cho cut",
   "width": 1024
 }

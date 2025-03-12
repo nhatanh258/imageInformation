@@ -2,7 +2,8 @@ POST http://localhost:8080/images/create
 Content-Type: application/json
 
 {
-  "path": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "path1": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "path2": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
   "text": "bao hiem khach hang",
   "width": 500
 }
