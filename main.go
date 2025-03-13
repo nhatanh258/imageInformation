@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-
+    
 	"github.com/gin-gonic/gin"
 )
 
@@ -37,10 +37,10 @@ func LoadConfig(filename string) (*Config, error) {
 
 // Chương trình chính
 func main() {
-	database, _ := db.InitDB() 
-	defer database.Close()     
+	database, _ := db.InitDB()
+	defer database.Close()
 	fmt.Println("dang tien hanh lay anh ...")
 	server := gin.Default() // tao mot instance  gin router
 	routers.SetupRoutes(server)
-	server.Run(":8080")                 
+	server.Run(":8080")
 }
