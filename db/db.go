@@ -26,7 +26,8 @@ func CreateTables() {
 		url TEXT ,
 		path1 TEXT NOT NULL,
 		path2 TEXT NOT NULL,
-		text TEXT NOT NULL,
+		text1 TEXT NOT NULL,
+		text2 TEXT NOT NULL,
 		width INTEGER NOT NULL,
 		uploaded_at TEXT DEFAULT CURRENT_TIMESTAMP,
 		updated_at TEXT DEFAULT CURRENT_TIMESTAMP 

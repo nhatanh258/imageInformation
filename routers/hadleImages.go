@@ -16,11 +16,10 @@ func GetAllImages(c *gin.Context) {
 	}
 }
 
-
 // GetImage lấy thông tin ảnh theo ID
 func GetImage(c *gin.Context) {
 	idInput, err := strconv.ParseInt(c.Param("id"), 10, 64) // chuyen doi id tu string sang int64
-	if err != nil || idInput < 0 {                         // neu id nhap vao ko hop le hoac nho hon 0
+	if err != nil || idInput < 0 {                          // neu id nhap vao ko hop le hoac nho hon 0
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid event ID"})
 		return
 	}
@@ -117,13 +116,13 @@ func GetText(c *gin.Context) {
 		return
 	}
 
-	text, err := services.GetText(idInput)
+	text1, text2, err := services.GetText(idInput)
 	if err != nil { // neu co loi trong lay du lieu tu database
 		c.JSON(http.StatusNotFound, gin.H{"error": "image not found"})
 		return
 	}
 
-	c.JSON(http.StatusOK, gin.H{"message": "Text of image", "text": text})
+	c.JSON(http.StatusOK, gin.H{"message": "Text of image \n", "text1 \n": text1, "text2 \n": text2})
 }
 
 //get all inforf
@@ -143,4 +142,22 @@ func GetFullImageInfo(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"message": "Full info of image", "image": image})
+}
+func getDoubleImage(c *gin.Context) {
+	idInput, err := strconv.ParseInt(c.Param("id"), 10, 64) // chuyen doi id tu string sang int64
+	if err != nil || idInput < 0 {                          // neu id nhap vao ko hop le hoac nho hon 0
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid event ID"})
+		return
+	}
+	image1, image2, err := services.GetDouble(idInput)
+	if err != nil { // neu co loi trong lay du lieu tu database
+		c.JSON(http.StatusNotFound, gin.H{"error": "Event not found"})
+		return
+	}
+	// c.JSON(http.StatusOK, image1)
+	// c.JSON(http.StatusOK, image2)
+	c.IndentedJSON(http.StatusOK, gin.H{
+		"image1": image1,
+		"image2": image2,
+	})
 }

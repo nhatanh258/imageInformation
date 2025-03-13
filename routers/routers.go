@@ -23,6 +23,7 @@ func SetupRoutes(server *gin.Engine) {
 	// xu ly anh router
 	imagesGroup.POST("/create", CreateImage)
 	imagesGroup.GET("/getAllImage", GetAllImages)
+	imagesGroup.GET("/getDoubleImage/:id", getDoubleImage)
 	imagesGroup.GET("/:id", GetImage)
 	imagesGroup.PUT("/update/:id", UpdateImage)
 	imagesGroup.DELETE("/delete/:id", DeleteImage)

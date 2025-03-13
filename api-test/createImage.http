@@ -4,6 +4,15 @@ Content-Type: application/json
 {
   "path1": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
   "path2": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
-  "text": "bao hiem khach hang",
+  "text1": "bao hiem khach hang222",
+  "text2": "cong npm hiem khach",
+  "width": 500
+}
+
+{
+  "path1": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "path2": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "text1": "bao hiem khach hang444",
+  "text2": "cong npm hiem khach444",
   "width": 500
 }

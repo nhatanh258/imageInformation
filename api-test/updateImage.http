@@ -4,6 +4,7 @@ Content-Type: application/json
 {
   "path1": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
    "path2": "https://xtpaivn.vercel.app/_next/image?url=%2Fbann…-xe-may-tri-an-khach-hang-tai-tuc.jpg&w=1080&q=75",
-  "text": "Hình ảnh cho cut",
+  "text1": "Hình ảnh cho cut",
+   "text2": "Hình ảnh cho cut",
   "width": 1024
 }
