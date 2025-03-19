@@ -1,2 +1,2 @@
-GET http://localhost:8080/images/getDoubleImage/5
+GET http://localhost:8080/images/getDoubleImage/7
 Accept: application/json

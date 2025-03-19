@@ -2,17 +2,17 @@ POST http://localhost:8080/images/create
 Content-Type: application/json
 
 {
-  "path1": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
-  "path2": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
-  "text1": "bao hiem khach hang222",
-  "text2": "cong npm hiem khach",
+  "path1": "https://mybic.vn/uploads/news/63/BIC-giam-15-phi-bao-hiem-TNDS-bat-buoc-cua-chu-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "path2": "https://mybic.vn/uploads/slide/35/httpsmybicvnchitietbicuudai15phibaohiemtndsbatbuocxeotochokhachhangtaituc60html.jpg",
+  "text1": "bao hiem xe may",
+  "text2": "bao hiem khac hang",
   "width": 500
 }
 
 {
-  "path1": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
-  "path2": "'/banner/bic-giam-15-phi-bao-hiem-tnds-xe-may-tri-an-khach-hang-tai-tuc.jpg",
-  "text1": "bao hiem khach hang444",
-  "text2": "cong npm hiem khach444",
+  "path1": "'https://mybic.vn/uploads/news/63/BIC-giam-15-phi-bao-hiem-TNDS-bat-buoc-cua-chu-xe-may-tri-an-khach-hang-tai-tuc.jpg",
+  "path2": "'https://mybic.vn/uploads/slide/35/httpsmybicvnchitietbicuudai15phibaohiemtndsbatbuocxeotochokhachhangtaituc60html.jpg",
+    "text1": "bao hiem xe may1",
+  "text2": "bao hiem khac hang1",
   "width": 500
 }
