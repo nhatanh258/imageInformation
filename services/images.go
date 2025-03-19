@@ -149,6 +149,6 @@ func GetDouble(id int64) (*models.Image,*models.Image, error){
 	err = row.Scan(&img2.ID, &img2.URL, &img2.Path1, &img2.Path2, &img2.Text1, &img2.Text2, &img2.Width, &img2.UploadedAt, &img2.UpdatedAt)
 	if err != nil {
 		return nil, nil, err
-	}
+	}// 
 	return &img1, &img2, nil
 }
